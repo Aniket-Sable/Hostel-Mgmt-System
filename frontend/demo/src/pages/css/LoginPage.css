@@ -1,0 +1,282 @@
+.Temp {
+    height: 100vh;
+    display: flex;
+    color: #536696;
+  }
+  h2.title {
+    text-align: left;
+    margin: 20px;
+    color: white;
+  }
+  button.formFieldButton {
+    background: linear-gradient(
+270deg, #F95691 0%, #892DFF 95.15%);
+}
+a.pageSwitcherItem.pageSwitcherItem-active{
+  background: linear-gradient(
+    270deg, #F95691 0%, #892DFF 95.15%);
+}
+  
+  .header {
+      height: 258px;
+      position: absolute;
+      /* color: red; */
+      z-index: -1;
+      width: 100%;
+      background-color: #536696;
+      text-align: center;
+  }
+  .helo-rector{
+    margin-top: 30px;
+    color: black;
+  }
+  .appAside {
+      width: 50%;
+      
+    }
+    h2.notice {
+    margin-top: 250px;
+    text-align: center;
+    color: black;
+}
+    
+    .appForm {
+      width: 50%;
+      background-color: #ffffff;
+      padding: 25px 40px;
+      overflow: auto;
+      margin-top: 100px;
+      height: 650px;
+      width: 600px;
+      border-radius: 10px;
+      box-shadow: 0px 10px 10px 10px rgb(0 0 0 / 25%);
+      margin-left: 30%;
+    }
+    
+    .pageSwitcher {
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 5%;
+    }
+    
+    .pageSwitcherItem {
+      background-color: #40434e;
+      color: #9da6b1;
+      padding: 10px 25px;
+      cursor: pointer;
+      font-size: 0.9em;
+      border: none;
+      outline: none;
+      display: inline-block;
+      text-decoration: none;
+    }
+    
+    .pageSwitcherItem-active {
+      background-color: #6b5b95;
+      color: white;
+    }
+    
+    .pageSwitcherItem:first-child {
+      border-top-left-radius: 25px;
+      border-bottom-left-radius: 25px;
+    }
+    .pageSwitcherItem:last-child {
+      border-top-right-radius: 25px;
+      border-bottom-right-radius: 25px;
+    }
+    
+    .formCenter {
+      margin-bottom: 100px;
+    }
+    
+    .formTitle {
+      color: #707c8b;
+      font-weight: 300;
+      margin-bottom: 30px;
+    }
+    
+    .formTitleLink {
+      color: #707c8b;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 1.7em;
+      margin: 0 10px;
+      padding-bottom: 5px;
+    }
+    
+    .formTitleLink:first-child {
+      margin-left: 0;
+    }
+    
+    .formTitleLink-active {
+      color: #ab39dd;
+      border-bottom: 1px solid #6b5b95;
+    }
+    
+    .formField {
+      margin-bottom: 40px;
+    }
+    
+    .formFieldLabel {
+      display: block;
+      text-transform: uppercase;
+      font-size: 0.9em;
+      color: rgb(0, 0, 0);
+    }
+    .formFieldInput {
+      width: 85%;
+      background-color: transparent;
+      border: none;
+      color: black;
+      outline: none;
+      border-bottom: 1px solid #445366;
+      font-size: 1em;
+      font-weight: 300;
+      padding-bottom: 10px;
+      margin-top: 10px;
+    }
+    
+    .formFieldInput::placeholder {
+      color: #616e7f;
+    }
+    
+    .formFieldButton {
+      background-color: #6b5b95;
+      color: white;
+      border: none;
+      outline: none;
+      border-radius: 25px;
+      padding: 15px 70px;
+      font-size: 0.8em;
+      font-weight: 500;
+    }
+    
+    .formFieldLink {
+      color: #66707d;
+      text-decoration: none;
+      display: inline-block;
+      border-bottom: 1.5px solid #6b5b95;
+      padding-bottom: 5px;
+      margin-left: 10px;
+    }
+    
+    .formFieldCheckboxLabel {
+      color: #646f7d;
+      font-size: 0.9em;
+    }
+    
+    .formFieldCheckbox {
+      position: relative;
+      top: 1.5px;
+    }
+    
+    .formFieldTermsLink {
+      color: white;
+      border-bottom: 1px solid #6b5b95;
+      text-decoration: none;
+      display: inline-block;
+      padding-bottom: 2px;
+      margin-left: 5px;
+    }
+    
+    .card.border-primary {
+        margin-top: 150px;
+        align-content: center;
+        /* align-items: center; */
+        margin-left: 140px;
+        width: 500px;
+        height: 400px;
+        border: none;
+        box-shadow: 0px 10px 10px 10px rgb(0 0 0 / 25%);
+    }
+    .card-header {
+      color: #ad3adb;
+      font-size: 23px;
+    }
+  
+    .mainpart.card-body{
+        background-color: #ffffff;
+        /* border: 3px solid #9d9696; */
+    }
+
+/* ////////////// Rector csss ////////////// */
+    
+/* .rec-appAside {
+    width: 35%;
+} */
+.footer {
+    height: 100px;
+    position: absolute;
+    /* color: red; */
+    /* z-index: -1; */
+    width: 100%;
+    background-color: #536696;
+    text-align: center;
+    margin: 800px;
+    /* margin-top: 200px; */
+    margin-left: 0px;
+}
+.footer-rec {
+  height: 100px;
+  position: absolute;
+  /* color: red; */
+  /* z-index: -1; */
+  width: 100%;
+  background-color: #979fb4;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 0px;
+}
+.footer-text{
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+/* ////////////// Rector csss ////////////// */
+.notification{
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  padding: 15px 70px;
+  font-size: 0.8em;
+  font-weight: 500;
+  width: 240px;
+  margin-left: 140px;
+  margin-top: 20px;
+  background: linear-gradient( 
+270deg, #F95691 0%, #892DFF 95.15%);
+}
+
+
+button.sign-in {
+  border-radius: 15px;
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: white;
+    text-decoration-color: red;
+    text-align: center;
+    margin-left: 700px;
+    /* margin-right: 10px; */
+    /* margin-top: 50px; */
+    /* border: 2px solid #e75fc7; */
+}
+
+select#signin {
+  width: 430px;
+}
+
+.appForm-forget {
+  width: 50%;
+  background-color: #ffffff;
+  padding: 50px 50px;
+  overflow: auto;
+  margin-top: 100px;
+  height: 400px;
+  width: 600px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px 10px rgb(0 0 0 / 25%);
+  margin-left: 30%;
+}

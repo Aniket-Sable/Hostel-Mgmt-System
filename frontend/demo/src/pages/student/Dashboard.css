@@ -1,0 +1,50 @@
+form.d-flex {
+    margin-left: 800px;
+}
+/* .home {
+    background-color: #060b26;
+    height: 300px;
+} */
+button.formFieldButton.notice {
+    animation: inherit;
+    margin-left: 40%;
+    margin-bottom: 30px;
+}
+
+
+/* .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  } */
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;}
+  
+
+  .card-body{
+    background-color: #f1f1f1;
+  }
+  .mard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    width: 700px;
+    height: 250px;
+    margin-left: 25%;
+  }
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  * {
+    box-sizing: border-box;
+  }
+
+  .user {
+    margin-left: 950px;
+}

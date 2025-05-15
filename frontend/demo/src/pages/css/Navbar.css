@@ -1,0 +1,234 @@
+.navbar {
+  background-color: #536696;
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.menu-bars {
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  background: none;
+}
+a.nav-item{
+  margin-left: 2rem;
+  font-size: 1.2rem;
+  background: none;
+  text-decoration: none;
+  color: white;
+ 
+}
+.dummy {
+  /* width: 100px; */
+  background-color: #9b9bca;
+  height: 300px;
+}
+
+.nav-menu {
+  background-color: #34405e;
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 850ms;
+  z-index: 1;
+}
+
+.nav-menu.active {
+  left: 0;
+  transition: 350ms;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  /* padding: 8px 0px 8px 16px; */
+  list-style: none;
+  height: 60px;
+}
+
+.nav-text a {
+  text-decoration: none;
+  color: #f5f5f5;
+  font-size: 18px;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 4px;
+}
+
+.nav-text a:hover {
+  background-color: #1a83ff;
+}
+
+.nav-menu-items {
+  width: 100%;
+}
+
+.navbar-toggle {
+  background-color: #34405e;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+span {
+  margin-left: 16px;
+}
+.home{
+  background-image: url(https://i.pinimg.com/originals/33/76/2d/33762d44730ec585c959504e64bef8e3.png);
+  /* position: fixed; */
+  min-width: 100%;
+  min-height: 70vh;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  opacity: 0.7;
+  z-index: -1;
+}
+
+.notify{
+margin-left: -85px;
+  margin-top: -450px;
+}
+
+.apply-form{
+  background-color: #ffffff;
+  padding: 25px 40px;
+  /* overflow: auto; */
+  margin-top: 80px;
+  margin-left: 25%;
+  margin-bottom: 80px;
+  /* height: 650px; */
+  width: 800px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px 10px rgb(0 0 0 / 25%);
+}
+
+
+p.marquee {
+    margin-top: 30px;
+    margin-bottom: 200px;
+}
+marquee{
+  width: 50%;
+  margin-left: 25%;
+}
+
+/******* student profile css start *********/
+
+
+.profile {
+  width: 25%;
+  background-color: #979fb4;
+ 
+}
+
+.prof-icon {
+  font-size: 120px;
+  /* width: 25%; */
+  padding-left: 120px;
+}
+
+h3.hello{
+  padding-left: 100px;
+  margin-top: 30px;
+  margin-bottom: -20px;
+}
+.left{
+ display: flex;
+}
+.prof-form {
+  margin-left: 150px;
+  margin-top: 70px;
+  width: 50%;
+}
+.row{
+  padding: 20px;
+}
+
+button.formFieldButton.update {
+  margin-left: 275px;
+  margin-bottom: 20px;
+  margin-top:30px;
+}
+.footer-stud{
+  background-color: #536696;
+  margin-bottom: -50px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: -10px;
+  /* margin-top: 20px; */
+}
+button.formFieldButton.update :hover{
+  background-color: yellow;
+}
+
+/************ student profile css end ***********/
+
+
+
+/************ student Message css Start ***********/
+
+
+.message{
+  width: 550px;
+  margin-left: 500px;
+  margin-top: 100px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px 10px rgb(0 0 0 / 25%);
+  padding: 20px;
+  padding-top: 30px;
+  margin-bottom: 60px;
+}
+button.formFieldButton.comment {
+  margin-left: 150px;
+  margin-top:30px;
+  margin-bottom: 10px;
+}
+
+
+
+
+/************ student Message css end ***********/
+.nav-link{
+  text-decoration: none;
+  color: white;
+  font-size: large;
+
+}
+.nav-link:hover{
+  color: rgb(8, 8, 8);
+  
+}
+
+
+.shubham{
+  float: left;
+  display: flex;
+  margin-left: 150px;
+  margin-top: -250px;
+  margin-bottom: 200px;
+}
+
+img.card-img-top {
+  height: 280px;
+}
+
+select {
+  /* margin-left: 50px; */
+  width: 425px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+

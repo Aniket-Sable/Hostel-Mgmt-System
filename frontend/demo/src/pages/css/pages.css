@@ -1,0 +1,87 @@
+
+.card-body{
+    background-color: #f1f1f1;
+    /* border: 3px solid red; */
+}
+.mb-2.text-muted.card-subtitle.h6 {
+    margin-top: 30px;
+    /* margin-bottom: -10px; */
+}
+h1{
+    color: white;
+}
+h3{
+    color: white;
+}
+a.link-rector {
+    margin: 10px;
+    font-size: larger;
+}
+a.link-student {
+    
+    font-size: larger;
+}
+
+img.mainimage{
+    width: 800px;
+    height: 650px;
+    /* margin-top: 3%; */
+    margin-left: 40%;
+}
+.role{
+    margin-top:-500px;
+    margin-left: 100px;
+}
+button.formFieldButton.role-student {
+    margin-top: 30px;
+}
+.walchand {
+    /* height: 100px; */
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 25%);
+    background-color: #979fb4;
+}
+button.formFieldButton:hover{
+    background-color: rgb(32, 30, 180);
+}
+
+.manageM {
+    width: 50%;
+    background-color: #ffffff;
+    padding: 25px 40px;
+    overflow: auto;
+    margin-top: 50px;
+    height: 650px;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px 10px rgb(0 0 0 / 25%);
+    margin-left: 30%;
+    margin-bottom: 50px;
+  }
+
+
+  a.admin_logout.dropdown-item {
+    width: 30px;
+    margin-left: 70%;
+    background: white;
+    background-color: white;
+}
+ 
+.admin_home {
+    background-image: url(https://i.pinimg.com/originals/33/76/2d/33762d4….png);
+    /* position: fixed; */
+    min-width: 100%;
+    min-height: 70vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    opacity: 0.7;
+    z-index: -1;
+}
+.admin_hostel {
+    position: relative;
+    width: 80%;
+    min-height: 1px;
+    margin-left: -100px;
+    padding-right: 170px;
+    margin-left: 200px;
+}

@@ -1,0 +1,85 @@
+form.enter-notice {
+    width: 500px;
+    margin-left: 60%;
+    margin-top: 50px;
+}
+button.notification.notice {
+    margin-bottom: 50px;
+    margin-left: 20%;
+}
+.dum{
+    margin-top: 50px;
+    width: 500px;
+}
+.table-alloc {
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 70px;
+}
+
+td {
+    padding-left: 0px;
+    padding-bottom: 10px;
+    overflow: hidden;  
+    border-width: thin;
+    border: 2px solid red;
+      
+}
+table{
+    width: 100%;
+    table-layout: fixed;
+    border-width: thin;
+    border: 2px solid rgb(209, 202, 202);
+    border-collapse: collapse;
+}
+.headline{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+h2.Aboutus{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+p.about-content{
+    margin-left: 80px;
+    margin-right: 80px;
+    /* margin-bottom: 80px; */
+}
+p.filter{
+ margin-top: 30px;
+    margin-left: 60px;
+}
+select.dropdown{
+margin-left: 60px;
+margin-top: -20px;
+}
+.col-sm-10 {
+    width: 500px;
+}
+
+button.formFieldButton.sort{
+    /* margin-left: 100px; */
+    width: 30px;
+    text-align: center;
+}
+button.formFieldButton.male{
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+button#test-table-xls-button {
+    width: 200px;
+}
+tr.table-row {
+    /* background-color: #65bc94; */
+    /* height: 70px; */
+}
+
+img.user {
+    width: 150px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    margin-top: 500px;
+}

@@ -1,0 +1,34 @@
+.criteria {
+    width: 85%;
+    margin-left: 100px;
+}
+
+.formField {
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+.handleForm {
+    margin-left: 190px;
+}
+button.formFieldButton.hanldeForm{
+    margin-top: 20px;
+   
+}
+
+.handle {
+    float: right;
+    margin-right:200px ;
+    /* width: 30%; */
+    /* display: inline; */
+}
+.main-notice {
+    float: left;
+    width: 60%;
+    /* margin-right: 150px; */
+}
+button.formFieldButton.main-notice {
+    /* margin-left: 700px; */
+    width: 200px;
+    margin-bottom: 100px;
+}
