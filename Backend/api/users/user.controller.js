@@ -308,15 +308,6 @@ module.exports = {
 
                     });
 
-                    //store token in the cookies
-                    // return res.status(200).json({
-                    //     success:1,
-                    //     message : "Login Successfully",
-                    //     token : jsontoken,
-                    //     user : results
-
-                    // });
-
 
                     return res.status(200).cookie("Hostelcookie", jsontoken, {
 
